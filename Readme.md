@@ -5,7 +5,9 @@
 2. Create a schedule task to run at logon with,
 
 > Action => Start Program
+> 
 > Program => "C:\Users\username\AppData\Local\Microsoft\WindowsApps\wt.exe"
+> 
 > Arguments => "pwsh -File /Users/username/Desktop/wallpaper/random_wallpaper.ps1"
 
-The example uses ***Windows Terminal*** to open powershell and run the script.
+  The example uses ***Windows Terminal*** to open powershell and run the script.
